@@ -1,0 +1,15 @@
+{
+    "siteName": "StudioZen",
+    "colors": {
+        "background": "#F5F5F5",
+        "primary": "#9DC183",
+        "accent": "#8B4513"
+    },
+    "courses": [
+        {
+            "title": "Corso Yoga Base",
+            "price": 100,
+            "duration": "8 lezioni"
+        }
+    ]
+}

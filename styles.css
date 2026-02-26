@@ -1,0 +1,35 @@
+:root {
+    --color-background: #F5F5F5;
+    --color-primary: #9DC183;
+    --color-text: #333333;
+    --color-accent: #8B4513;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+body.wellness-template {
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.hero-section {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: var(--color-accent);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
